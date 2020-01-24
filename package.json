@@ -1,0 +1,50 @@
+{
+  "name": "trending-tweets",
+  "version": "0.1.0",
+  "description": "trending tweets of an area",
+  "main": "index.js",
+  "scripts": {
+    "client": "parcel client/index.html --out-dir dist/public",
+    "dev": "",
+    "server": "parcel server/index.js --target node --out-dir dist/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razi-ed/trending-tweets.git"
+  },
+  "keywords": [
+    "twitter",
+    "nodejs"
+  ],
+  "author": "Razi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/razi-ed/trending-tweets/issues"
+  },
+  "homepage": "https://github.com/razi-ed/trending-tweets#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cron": "^1.8.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1"
+  }
+}
